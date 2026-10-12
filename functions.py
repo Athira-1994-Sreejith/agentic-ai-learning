@@ -38,3 +38,17 @@ def fizz_buzz(n):
 
 
 fizz_buzz(30)
+
+def fiz_buz(j,a=3,b=5):
+    for i in range(1,j+1):
+        if i % a == 0 and i % b == 0:
+            print("FizzBuzz")
+        elif i % a == 0:
+            print("Fizz")
+        elif i % b == 0:
+            print("Buzz")
+        else:
+            print(i)
+
+fiz_buz(30,3,5)
+fiz_buz(30, 4, 6)
