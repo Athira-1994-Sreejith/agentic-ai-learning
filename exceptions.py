@@ -33,4 +33,4 @@ def divide_numbers(num1, num2):
 
 print(divide_numbers(10, 2))  # Output: 5.0
 print(divide_numbers(10, 0))  # Output: Error message and None
-print(divide_numbers(0, 5))  # Output: 2.0
+print(divide_numbers(0, 5))  # Output: 0.0
